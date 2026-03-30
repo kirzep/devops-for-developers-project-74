@@ -19,5 +19,5 @@ jobs:
 
       - name: Build and push production image
         run: |
-          docker-compose -f docker-compose.yml build app
-          docker-compose -f docker-compose.yml push app
+          docker compose -f docker-compose.yml build app
+          docker compose -f docker-compose.yml push app
